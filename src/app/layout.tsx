@@ -11,7 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Swapna Tagaram",
+  title: "Manepalli Venkata Krishna - Software Engineer",
   description:
     "Follow my journey as I explore the world of software development, from learning web technologies like HTML, CSS, JavaScript, and modern frameworks such as React and Next.js, to building and deploying real-world applications. Discover insights, tips, and experiences from my ongoing adventure in the software industry.",
 };
