@@ -7,18 +7,16 @@ const nextConfig = {
         hostname: "**",
       },
     ],
+    unoptimized: true,
   },
   eslint: {
-    ignoreDuringBuilds: true, // ✅ Ignore ESLint errors during build
+    ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true, // ✅ Ignore TypeScript errors during build
+    ignoreBuildErrors: true,
   },
-  output: 'export', // ✅ Enables static export
-  images: {
-    unoptimized: true, // ✅ Disable Next.js image optimization
-  },
-  trailingSlash: true, // ✅ Adds a trailing slash for better static hosting
+  output: 'export',
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;
